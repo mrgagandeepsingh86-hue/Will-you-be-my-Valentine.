@@ -1,30 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Will you be my Valentine?</title>
-
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
-
-  <style>
-    :root {
-      --bg1: #ffd6e7;
-      --bg2: #ffeef6;
-      --card: #ffffffcc;
-      --yes: #ff3b7a;
-      --yesHover: #ff1f68;
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      min-height: 100svh;
-      display: grid;
-      place-items: center;
-      background:
-        radial-gradient(circle at 10% 20%, #ffb3c6 0 120px, transparent 130px),
         radial-gradient(circle at 90% 30%, #ffc2d1 0 140px, transparent 150px),
         radial-gradient(circle at 50% 80%, #ffd6e7 0 160px, transparent 170px),
         radial-gradient(circle at top, var(--bg2), var(--bg1));
